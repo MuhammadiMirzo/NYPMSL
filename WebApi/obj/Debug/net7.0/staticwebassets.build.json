@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "HrPJwNmpebLkrwXRyafbuFaTcHMJx3qY/vsTh8F77d4=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApi\\wwwroot",
+      "Source": "WebApi",
+      "ContentRoot": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
