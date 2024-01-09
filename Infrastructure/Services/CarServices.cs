@@ -47,7 +47,7 @@ public class CarServices: ICarService
 
           foreach (var file in model.CarImages)
             {
-                var imageName = await _fileService.CreateFile(file);
+                var imageName = await _fileService.CreateFile(file.FileName);
                 var image = new CarImage()
                 {
                     CarId = Car.Id,

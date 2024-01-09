@@ -25,5 +25,11 @@ public class AddCarDto
     public string? SellingBranch { get; set; }
     public DateTimeOffset AuctionDate { get; set; } 
 
-    public List<IFormFile>? CarImages { get; set; }
+    public List<AddCarImageDto>? CarImages { get; set; }
+}
+
+
+public class AddCarImageDto
+{
+    public IFormFile FileName { get; set; }
 }
