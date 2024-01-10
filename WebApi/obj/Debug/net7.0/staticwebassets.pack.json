@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg",
+      "PackagePath": "staticwebassets\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg",
+      "PackagePath": "staticwebassets\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg",
+      "PackagePath": "staticwebassets\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebApi.props",
+      "PackagePath": "build\\WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebApi.props",
+      "PackagePath": "buildTransitive\\WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
