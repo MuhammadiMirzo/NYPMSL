@@ -31,83 +31,66 @@ namespace Infrastructure.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Airbag")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Auction")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTimeOffset>("AuctionDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("BodyType")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Equipment")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Final_Bid")
                         .HasColumnType("integer");
 
                     b.Property<string>("Key")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Loss")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Lot")
                         .HasColumnType("integer");
 
                     b.Property<string>("Make")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("ManufacturedIn")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Model")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Odometer")
                         .HasColumnType("integer");
 
                     b.Property<string>("PrimaryDamage")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("SecondaryDamage")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Seller")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("SellingBranch")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("StartCode")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Transmission")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("VIN")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("VINStatus")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Year")
@@ -137,7 +120,7 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("CarId");
 
-                    b.ToTable("CarImage");
+                    b.ToTable("CarImages");
                 });
 
             modelBuilder.Entity("Domain.Entities.CarImage", b =>

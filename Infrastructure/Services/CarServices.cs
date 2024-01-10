@@ -1,3 +1,4 @@
+using Domain.DTOs;
 using Domain.Entities;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +25,7 @@ public class CarServices: ICarService
             Airbag = model.Airbag,
             VINStatus = model.VINStatus,
             Year = model.Year,
-            AuctionDate = model.AuctionDate,
+            AuctionDate = DateTimeOffset.UtcNow,
             BodyType = model.BodyType,
             Equipment = model.Equipment,
             Final_Bid = model.Final_Bid,
@@ -47,7 +48,7 @@ public class CarServices: ICarService
 
           foreach (var file in model.CarImages)
             {
-                var imageName = await _fileService.CreateFile(file.FileName);
+                var imageName = await _fileService.CreateFile(file);
                 var image = new CarImage()
                 {
                     CarId = Car.Id,

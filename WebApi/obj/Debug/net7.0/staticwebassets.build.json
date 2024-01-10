@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HrPJwNmpebLkrwXRyafbuFaTcHMJx3qY/vsTh8F77d4=",
+  "Hash": "b+QKLix4SqvgXfwJ+v2MxmgGQ8HYsb6wK+T66zJXgXM=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -10,10 +10,68 @@
     {
       "Name": "WebApi\\wwwroot",
       "Source": "WebApi",
-      "ContentRoot": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "images/2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg"
+    },
+    {
+      "Identity": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "images/54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg"
+    },
+    {
+      "Identity": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "images/7e206762-6887-4c24-8064-d134c669f993.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg"
+    }
+  ]
 }

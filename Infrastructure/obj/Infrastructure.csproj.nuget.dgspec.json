@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {
+    "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\obj\\",
+        "projectPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Shodmon\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Shodmon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,11 +47,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
-              "version": "[2.2.7, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
-              "version": "[2.2.2, )"
+              "version": "[2.1.1, )"
             }
           },
           "imports": [
@@ -63,34 +70,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Shodmon\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Shodmon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj"
+              "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj"
               }
             }
           }
@@ -107,7 +121,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
-              "version": "[2.2.7, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.AspNetCore.Hosting.Abstractions": {
               "target": "Package",
@@ -115,7 +129,7 @@
             },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
-              "version": "[2.2.2, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -151,7 +165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

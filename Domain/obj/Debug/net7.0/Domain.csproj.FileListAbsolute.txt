@@ -10,3 +10,16 @@ C:\Users\Muhammad\Desktop\NysmplProj\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\Muhammad\Desktop\NysmplProj\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\Muhammad\Desktop\NysmplProj\Domain\obj\Debug\net7.0\ref\Domain.dll
 C:\Users\Muhammad\Desktop\NysmplProj\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\bin\Debug\net7.0\Domain.dll
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.dll
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Projects\AkaiMuhammadjon\NYPMSL\Domain\obj\Debug\net7.0\ref\Domain.dll
