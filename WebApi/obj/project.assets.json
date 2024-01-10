@@ -2121,43 +2121,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shodmon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Muhammad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\Shodmon\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Shodmon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Domain\\Domain.csproj"
+            "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj"
             },
-            "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -2210,7 +2202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

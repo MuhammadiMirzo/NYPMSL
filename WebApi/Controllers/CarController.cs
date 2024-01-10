@@ -43,9 +43,9 @@ public class CarController : ControllerBase
     }
 
     [HttpPut("UpdateCar")]
-    public async Task<string> UpdateCarAsync(Car model)
+    public async Task<string> UpdateCarAsync(Car car)
     {
-        var response = await _CarService.UpdateCar(model);
+        var response = await _CarService.UpdateCar(car);
 
         return "Updated";
     }

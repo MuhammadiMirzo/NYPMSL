@@ -1,16 +1,32 @@
 {
   "Files": [
     {
-      "Id": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg",
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\029a9302-a3e7-44c6-a46a-1c21394ca6b3.JPG",
+      "PackagePath": "staticwebassets\\images\\029a9302-a3e7-44c6-a46a-1c21394ca6b3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg",
       "PackagePath": "staticwebassets\\images\\2126c35e-eb23-46b1-8d37-a9acf6f48c42.jpeg"
     },
     {
-      "Id": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg",
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg",
       "PackagePath": "staticwebassets\\images\\54b2d251-f2b8-4219-a088-c37c7649f6da.jpeg"
     },
     {
-      "Id": "D:\\Projects\\AkaiMuhammadjon\\NYPMSL\\WebApi\\wwwroot\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg",
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg",
       "PackagePath": "staticwebassets\\images\\7e206762-6887-4c24-8064-d134c669f993.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\8ee3f3cb-8b5f-4cc1-94a6-3dde0f2ed08b.jpeg",
+      "PackagePath": "staticwebassets\\images\\8ee3f3cb-8b5f-4cc1-94a6-3dde0f2ed08b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\cb33cbf7-3fd4-4c08-bd7d-585940871dc9.JPG",
+      "PackagePath": "staticwebassets\\images\\cb33cbf7-3fd4-4c08-bd7d-585940871dc9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\wwwroot\\images\\f307acd5-ec1c-40ff-94fc-a8ce119fcd28.JPG",
+      "PackagePath": "staticwebassets\\images\\f307acd5-ec1c-40ff-94fc-a8ce119fcd28.JPG"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",

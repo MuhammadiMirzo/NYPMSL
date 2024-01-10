@@ -5,7 +5,7 @@ namespace Infrastructure.Services;
 
 public interface ICarService
 {
-    Task<List<Car>> GetAllCars();
+    Task<List<GetCarDto>> GetAllCars();
     Task<string> AddCar(AddCarDto model);
     Task<string> UpdateCar(Car model);
     Task<string> DeleteCar(int courseId);
