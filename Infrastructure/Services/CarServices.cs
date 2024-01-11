@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Infrastructure.Services;
 using Infrastructure.Services.FileService;
 using Domain.DTOs;
+using Microsoft.AspNetCore.Mvc;
 
 
 public class CarServices: ICarService
@@ -75,6 +76,50 @@ public class CarServices: ICarService
         return "Data successfully deleted";
     }
 
+    public async Task<GetCarDto?> GetCarById(int carId)
+    {
+       
+
+        var mosh = await _dbContext.Cars.Include(x=>x.CarImages).FirstOrDefaultAsync(x=>x.Id==carId);
+        if (mosh == null) {
+            System.Console.WriteLine("data not found ");
+            return null;
+        }
+
+      var yoft = new GetCarDto
+      {
+        Airbag = mosh.Airbag,
+        Auction = mosh.Auction,
+        BodyType = mosh.BodyType,
+        CarImages = mosh.CarImages==null? new List<CarImageDto>()
+        : mosh.CarImages.Select(x=>new CarImageDto{
+            Id = x.Id,
+            FileName = x.ImageName
+        }).ToList(),
+        Equipment = mosh.Equipment,
+        Final_Bid = mosh.Final_Bid,
+        Id = mosh.Id,
+        Key = mosh.Key,
+        Loss = mosh.Loss,
+        Lot = mosh.Lot,
+        Make = mosh.Make,
+        ManufacturedIn = mosh.ManufacturedIn,
+        Model = mosh.Model,
+        Odometer = mosh.Odometer,
+        PrimaryDamage = mosh.PrimaryDamage,
+        SecondaryDamage = mosh.SecondaryDamage,
+        Seller = mosh.Seller,
+        SellingBranch = mosh.SellingBranch,
+        StartCode = mosh.StartCode,
+        Transmission = mosh.Transmission,
+        VIN = mosh.VIN,
+        VINStatus = mosh.VINStatus,
+        Year = mosh.Year,
+      };
+      
+      return yoft;
+    }
+
     public async Task<List<GetCarDto>> GetAllCars()
     {
         var allcour = await _dbContext.Cars.Select(
@@ -82,8 +127,10 @@ public class CarServices: ICarService
              Airbag = x.Airbag,
              Auction = x.Auction,
              BodyType = x.BodyType,
-             CarImages = x.CarImages.Select(
-                x=>x.ImageName).ToList(),
+             CarImages = x.CarImages.Select(x=>new CarImageDto{
+            Id = x.Id,
+            FileName = x.ImageName
+        }).ToList(),
             Equipment = x.Equipment,
             Final_Bid = x.Final_Bid,
             Id = x.Id,
