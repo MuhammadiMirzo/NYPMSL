@@ -26,7 +26,7 @@ public class GetCarDto
     public string? Transmission { get; set; }
     public string? ManufacturedIn { get; set; }
     public string? SellingBranch { get; set; }
-    public DateTime AuctionDate { get; set; } 
+    public DateTimeOffset AuctionDate { get; set; } 
 
     public List<CarImageDto>? CarImages { get; set; }  = new();
 }

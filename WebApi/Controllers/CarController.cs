@@ -21,6 +21,12 @@ public class CarController : ControllerBase
         var response = await _CarService.GetCarById(carId);
         return response;
     }
+    [HttpGet("GetCarByVIN")]
+    public async Task<GetCarDto> GetCarByVIN(string carVin)
+    {
+        var response = await _CarService.GetCarByVIN(carVin);
+        return response;
+    }
 
     [HttpGet("GetAllCars")]
     public async Task<IActionResult> GetAllCarsAsync()

@@ -2121,19 +2121,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Muhammad\\.nuget\\packages\\": {}
+    "C:\\Users\\husen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\husen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\husen\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2145,11 +2145,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj"
+            "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -2202,7 +2202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

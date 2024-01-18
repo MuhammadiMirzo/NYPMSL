@@ -25,7 +25,7 @@ public class AddCarDto
     public string Transmission { get; set; } = null!;
     public string ManufacturedIn { get; set; } = null!;
     public string SellingBranch { get; set; } = null!;
-    // public DateTimeOffset AuctionDate { get; set; } 
+     public DateTimeOffset AuctionDate { get; set; } 
 
     public List<IFormFile> CarImages { get; set; } = null!;
 }

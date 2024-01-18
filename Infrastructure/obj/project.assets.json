@@ -1677,19 +1677,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Muhammad\\.nuget\\packages\\": {}
+    "C:\\Users\\husen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\husen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\husen\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1701,8 +1701,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj"
+            "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj"
             }
           }
         }
@@ -1763,8 +1763,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Http' 2.1.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-hxrm-9w7p-39cc",
+      "libraryId": "Microsoft.AspNetCore.Http",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

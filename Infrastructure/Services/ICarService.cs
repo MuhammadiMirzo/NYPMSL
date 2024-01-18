@@ -10,5 +10,6 @@ public interface ICarService
     Task<string> UpdateCar(Car model);
     Task<string> DeleteCar(int courseId);
     Task<GetCarDto?> GetCarById(int carId);
+    Task<GetCarDto?> GetCarByVIN(string carVin);
 
 }

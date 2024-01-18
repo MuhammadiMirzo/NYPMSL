@@ -27,7 +27,7 @@ public class CarServices: ICarService
             Airbag = addCar.Airbag,
             VINStatus = addCar.VINStatus,
             Year = addCar.Year,
-            AuctionDate = DateTimeOffset.UtcNow,
+            AuctionDate =addCar.AuctionDate,
             BodyType = addCar.BodyType,
             Equipment = addCar.Equipment,
             Final_Bid = addCar.Final_Bid,
@@ -74,6 +74,50 @@ public class CarServices: ICarService
 
         if(result==0) return "Data not deleted !";
         return "Data successfully deleted";
+    }
+
+    public async Task<GetCarDto?> GetCarByVIN(string carVin)
+    {
+       
+
+        var mosh = await _dbContext.Cars.Include(x=>x.CarImages).FirstOrDefaultAsync(x=>x.VIN==carVin);
+        if (mosh == null) {
+            System.Console.WriteLine("data not found ");
+            return null;
+        }
+
+      var yoft = new GetCarDto
+      {
+        Airbag = mosh.Airbag,
+        Auction = mosh.Auction,
+        BodyType = mosh.BodyType,
+        CarImages = mosh.CarImages==null? new List<CarImageDto>()
+        : mosh.CarImages.Select(x=>new CarImageDto{
+            Id = x.Id,
+            FileName = x.ImageName
+        }).ToList(),
+        Equipment = mosh.Equipment,
+        Final_Bid = mosh.Final_Bid,
+        Id = mosh.Id,
+        Key = mosh.Key,
+        Loss = mosh.Loss,
+        Lot = mosh.Lot,
+        Make = mosh.Make,
+        ManufacturedIn = mosh.ManufacturedIn,
+        Model = mosh.Model,
+        Odometer = mosh.Odometer,
+        PrimaryDamage = mosh.PrimaryDamage,
+        SecondaryDamage = mosh.SecondaryDamage,
+        Seller = mosh.Seller,
+        SellingBranch = mosh.SellingBranch,
+        StartCode = mosh.StartCode,
+        Transmission = mosh.Transmission,
+        VIN = mosh.VIN,
+        VINStatus = mosh.VINStatus,
+        Year = mosh.Year,
+      };
+      
+      return yoft;
     }
 
     public async Task<GetCarDto?> GetCarById(int carId)
@@ -127,10 +171,11 @@ public class CarServices: ICarService
              Airbag = x.Airbag,
              Auction = x.Auction,
              BodyType = x.BodyType,
-             CarImages = x.CarImages.Select(x=>new CarImageDto{
+             CarImages = x.CarImages!.Select(x=>new CarImageDto{
             Id = x.Id,
             FileName = x.ImageName
         }).ToList(),
+            AuctionDate = x.AuctionDate,
             Equipment = x.Equipment,
             Final_Bid = x.Final_Bid,
             Id = x.Id,

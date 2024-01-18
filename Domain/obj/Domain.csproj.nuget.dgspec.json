@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {}
+    "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj": {
+    "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammad\\Desktop\\NysmplProj\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\husen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\husen\\OneDrive\\Рабочий стол\\NysmplProj\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\husen\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
