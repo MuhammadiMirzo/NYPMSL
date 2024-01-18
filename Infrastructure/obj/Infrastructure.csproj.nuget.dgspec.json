@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj": {
+    "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Olimjon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -69,12 +69,12 @@
         }
       }
     },
-    "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Olimjon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj"
+              "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj"
               }
             }
           }

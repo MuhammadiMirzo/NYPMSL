@@ -984,9 +984,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Olimjon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\obj\\",
       "projectStyle": "PackageReference",

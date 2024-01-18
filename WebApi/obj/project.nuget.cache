@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nq8HSZbIWxJSEmc60jbyxMDJx+ucIhRT7ua2N8IZ8bN5bddZHvDl647laMMQSuPOiCwDcC0LfRALD7LgqgS9jA==",
+  "dgSpecHash": "mMlebZBfT31BwZRtt3za0FAz67A7U/LDWviZyaR/O4UxBTRmrPK7r3HGpSbyUW/RnlMCbllFxbq4YqY2v/WAOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Olimjon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Olimjon\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.1.1\\microsoft.aspnetcore.hosting.2.1.1.nupkg.sha512",

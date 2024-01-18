@@ -2215,9 +2215,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\Olimjon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
@@ -2236,11 +2236,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Domain\\Domain.csproj"
+            "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Olimjon\\source\\repos\\NYPMSL\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
