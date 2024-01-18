@@ -1,0 +1,137 @@
+name: dockercompose5683427512344023247
+services:
+  db:
+    container_name: nysmpl-service-db
+    environment:
+      POSTGRES_PASSWORD: nysmpl-service-2024
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      nysmpl-service-network: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5437"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgresql-data
+        target: /var/lib/postgresql/data
+        volume: {}
+  webapi:
+    build:
+      context: C:\Users\Olimjon\source\repos\NYPMSL
+      dockerfile: WebApi/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: WebApi
+      target: base
+    container_name: nysmpl-service
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    entrypoint:
+      - tail
+      - -f
+      - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Prod
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: tajievolimjon/nysmpl-webapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages  "/app/bin/Debug/net7.0/WebApi.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      nysmpl-service-network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "7005"
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: C:\Users\Olimjon\.nuget\packages\
+        target: /.nuget/packages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: /HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0
+        target: /HotReloadProxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0
+        target: /TokenService.Proxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\Source\Repos\NYPMSL\WebApi
+        target: /app
+        bind:
+          create_host_path: true
+      - type: volume
+        source: nysmpl-service-uploads
+        target: /app/wwwroot/images
+        volume: {}
+      - type: bind
+        source: C:\Users\Olimjon\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\source\repos\NYPMSL
+        target: /src
+        bind:
+          create_host_path: true
+networks:
+  nysmpl-service-network:
+    name: dockercompose5683427512344023247_nysmpl-service-network
+    driver: bridge
+volumes:
+  nysmpl-service-uploads:
+    name: dockercompose5683427512344023247_nysmpl-service-uploads
+  postgresql-data:
+    name: dockercompose5683427512344023247_postgresql-data

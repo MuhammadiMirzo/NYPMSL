@@ -1,0 +1,55 @@
+name: dockercompose5683427512344023247
+services:
+  db:
+    container_name: nysmpl-service-db
+    environment:
+      POSTGRES_PASSWORD: nysmpl-service-2024
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      nysmpl-service-network: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5437"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgresql-data
+        target: /var/lib/postgresql/data
+        volume: {}
+  webapi:
+    build:
+      context: C:\Users\Olimjon\source\repos\NYPMSL
+      dockerfile: WebApi/Dockerfile
+    container_name: nysmpl-service
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Prod
+      ASPNETCORE_URLS: http://+:80
+    image: tajievolimjon/nysmpl-webapi
+    networks:
+      nysmpl-service-network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "7005"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: nysmpl-service-uploads
+        target: /app/wwwroot/images
+        volume: {}
+networks:
+  nysmpl-service-network:
+    name: dockercompose5683427512344023247_nysmpl-service-network
+    driver: bridge
+volumes:
+  nysmpl-service-uploads:
+    name: dockercompose5683427512344023247_nysmpl-service-uploads
+  postgresql-data:
+    name: dockercompose5683427512344023247_postgresql-data

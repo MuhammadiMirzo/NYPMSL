@@ -1,0 +1,35 @@
+name: dockercompose5683427512344023247
+services:
+  webapi:
+    build:
+      context: C:\Users\Olimjon\source\repos\NYPMSL
+      dockerfile: WebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: webapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Olimjon\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Olimjon\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose5683427512344023247_default
