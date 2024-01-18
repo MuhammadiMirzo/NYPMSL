@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wD820eHavFuLbzPY5tLSkAej3lS5aEL8chowEndgOT1ZqyD81h/4CER+h5Zv4X3IvZU6iZaKZiJRl7aBpKmbNA==",
+  "dgSpecHash": "Nq8HSZbIWxJSEmc60jbyxMDJx+ucIhRT7ua2N8IZ8bN5bddZHvDl647laMMQSuPOiCwDcC0LfRALD7LgqgS9jA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Olimjon\\Source\\Repos\\NYPMSL\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Olimjon\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Olimjon\\.nuget\\packages\\microsoft.net.http.headers\\2.1.1\\microsoft.net.http.headers.2.1.1.nupkg.sha512",
     "C:\\Users\\Olimjon\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Olimjon\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Olimjon\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Olimjon\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
     "C:\\Users\\Olimjon\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",

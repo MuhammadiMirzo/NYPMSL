@@ -3,19 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{75F397D3-8B50-4A86-81D4-3523F2C4DCCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{75F397D3-8B50-4A86-81D4-3523F2C4DCCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{51E55EA9-5230-4CB5-B8C2-129D37369F3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{51E55EA9-5230-4CB5-B8C2-129D37369F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{02462006-0F07-4417-8824-CEC7604C27A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{02462006-0F07-4417-8824-CEC7604C27A8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{73C67785-8AF0-448A-9933-476C2CA930B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{75F397D3-8B50-4A86-81D4-3523F2C4DCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,12 @@ Global
 		{02462006-0F07-4417-8824-CEC7604C27A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02462006-0F07-4417-8824-CEC7604C27A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02462006-0F07-4417-8824-CEC7604C27A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C67785-8AF0-448A-9933-476C2CA930B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C67785-8AF0-448A-9933-476C2CA930B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C67785-8AF0-448A-9933-476C2CA930B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C67785-8AF0-448A-9933-476C2CA930B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

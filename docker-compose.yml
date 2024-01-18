@@ -1,0 +1,41 @@
+version: '3.4'
+
+services:
+  webapi:
+    image: tajievolimjon/nysmpl-webapi
+    container_name: nysmpl-service
+    build:
+      context: .
+      dockerfile: WebApi/Dockerfile
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Prod
+     - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "7005:80"
+    volumes:
+      - nysmpl-service-uploads:/app/wwwroot/images
+    depends_on:
+      - nysmpl-service-db
+    networks:
+      - nysmpl-service-network
+  nysmpl-service-db:
+    image: postgres
+    container_name: nysmpl-service-db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=nysmpl-service-2024
+    ports:
+      - "5437:5432"
+    volumes:
+      - postgresql-data:/var/lib/postgresql/data
+    networks:
+      - nysmpl-service-network
+
+networks:
+  nysmpl-service-network:
+    driver: bridge
+
+volumes:
+  postgresql-data:
+  nysmpl-service-uploads:
