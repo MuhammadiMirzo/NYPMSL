@@ -6,7 +6,7 @@ services:
     container_name: nysmpl-service
     build:
       context: .
-      dockerfile: WebApi/Dockerfile
+      dockerfile: Dockerfile
     environment:
      - ASPNETCORE_ENVIRONMENT=Prod
      - ASPNETCORE_URLS=http://+:80
